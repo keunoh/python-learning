@@ -8,10 +8,10 @@ html = """
 </body></html>
 """
 
-# HTML 분석하기 - #1
+# HTML 분석하기 -- #1
 soup = BeautifulSoup(html, 'html.parser')
 
-# find() 메서드로 원하는 부분 추출하기 - #2
+# find() 메서드로 원하는 부분 추출하기 -- #2
 title = soup.find(id="title")
 body = soup.find(id="body")
 
