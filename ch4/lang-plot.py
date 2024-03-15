@@ -22,5 +22,5 @@ df = pd.DataFrame(lang_dic, index=asclist)
 
 # 그래프 그리기
 plt.style.use('ggplot')
-df.plot(kind="bar", subplots=True, ylim=(0,0.15))
-plt.savefig("lang-plot.png")
+df.plot(kind="line")
+plt.show()
